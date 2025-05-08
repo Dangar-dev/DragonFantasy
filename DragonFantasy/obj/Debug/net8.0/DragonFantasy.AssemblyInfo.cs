@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DragonFantasy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+aea8d396829312438a2414b815832f1c5c9b91d7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4f952dd70d79e5f9f919ef2f5725d600ad88798")]
 [assembly: System.Reflection.AssemblyProductAttribute("DragonFantasy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DragonFantasy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

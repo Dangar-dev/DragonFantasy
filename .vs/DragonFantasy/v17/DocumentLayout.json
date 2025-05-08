@@ -1,12 +1,54 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\2mod\\Desktop\\DragonFantasy\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{608D2FB5-D1C1-4199-A973-C60A70C7311E}|DragonFantasy\\DragonFantasy.csproj|c:\\users\\2mod\\desktop\\dragonfantasy\\dragonfantasy\\repositorio\\loginrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608D2FB5-D1C1-4199-A973-C60A70C7311E}|DragonFantasy\\DragonFantasy.csproj|solutionrelative:dragonfantasy\\repositorio\\loginrepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{608D2FB5-D1C1-4199-A973-C60A70C7311E}|DragonFantasy\\DragonFantasy.csproj|c:\\users\\2mod\\desktop\\dragonfantasy\\dragonfantasy\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{608D2FB5-D1C1-4199-A973-C60A70C7311E}|DragonFantasy\\DragonFantasy.csproj|solutionrelative:dragonfantasy\\repositorio\\produtorepositorio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ProdutoRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\2mod\\Desktop\\DragonFantasy\\DragonFantasy\\Repositorio\\ProdutoRepositorio.cs",
+              "RelativeDocumentMoniker": "DragonFantasy\\Repositorio\\ProdutoRepositorio.cs",
+              "ToolTip": "C:\\Users\\2mod\\Desktop\\DragonFantasy\\DragonFantasy\\Repositorio\\ProdutoRepositorio.cs",
+              "RelativeToolTip": "DragonFantasy\\Repositorio\\ProdutoRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T18:44:29.893Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginRepositorio.cs",
+              "DocumentMoniker": "C:\\Users\\2mod\\Desktop\\DragonFantasy\\DragonFantasy\\Repositorio\\LoginRepositorio.cs",
+              "RelativeDocumentMoniker": "DragonFantasy\\Repositorio\\LoginRepositorio.cs",
+              "ToolTip": "C:\\Users\\2mod\\Desktop\\DragonFantasy\\DragonFantasy\\Repositorio\\LoginRepositorio.cs",
+              "RelativeToolTip": "DragonFantasy\\Repositorio\\LoginRepositorio.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T18:44:10.888Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
