@@ -54,3 +54,10 @@
     object-fit: cover;
     z-index: -1;
 }
+
+.logo {
+    width: 7%;
+    align-content: center;
+    position: center;
+    margin-right: 45%;
+}
