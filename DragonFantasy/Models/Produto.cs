@@ -12,6 +12,6 @@
 
         public int ?Quantidade { get; set; }
 
-        public List<Produto> ListaProduto { get; set; }
+        public List<Produto> ?Produtos { get; set; }
     }
 }

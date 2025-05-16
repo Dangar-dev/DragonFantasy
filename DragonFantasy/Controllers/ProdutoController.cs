@@ -44,7 +44,7 @@ namespace DragonFantasy.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
 
-        public IActionResult EditarProdutos(int id, [Bind("Id, Nome, Descricao, Preco, Quantidade")] Produto produto)
+        public IActionResult EditarProduto(int id, [Bind("Id, Nome, Descricao, Preco, Quantidade")] Produto produto)
         {
             if (id != produto.Id)
             {

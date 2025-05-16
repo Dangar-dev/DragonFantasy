@@ -37,9 +37,9 @@ namespace DragonFantasy.Repositorio
                 {
                     conexao.Open();
 
-                    MySqlCommand cmd = new MySqlCommand("UPDATE Produto SET Nome=@Nome, Descricao=@Descricao, Preco=@Preco, Quantidade=@Quantidade" + "WHERE Id=@Id", conexao);
+                    MySqlCommand cmd = new MySqlCommand("Update Produto set Nome=@Nome, Descricao=@Descricao, Preco=@Preco, Quantidade=@Quantidade " + "where Id=@id", conexao);
 
-                    cmd.Parameters.Add("@Id", MySqlDbType.Int32).Value = produto.Id;
+                    cmd.Parameters.Add("@id", MySqlDbType.Int32).Value = produto.Id;
 
                     cmd.Parameters.Add("@Nome", MySqlDbType.VarChar).Value = produto.Nome;
 
@@ -87,7 +87,7 @@ namespace DragonFantasy.Repositorio
                             Nome = ((string)dr["Nome"]),
                             Descricao = ((string)dr["Descricao"]),
                             Preco = ((decimal)dr["Preco"]),
-                            Quantidade = ((int)dr["Preco"]),
+                            Quantidade = (int)(dr["Quantidade"]),
                         });
                 }
                 return ProdutoList;
@@ -100,9 +100,9 @@ namespace DragonFantasy.Repositorio
             {
                 conexao.Open();
 
-                MySqlCommand cmd = new MySqlCommand("SELECT * FROM Produto Where Id=@Id", conexao);
+                MySqlCommand cmd = new MySqlCommand("SELECT * FROM Produto Where Id=id", conexao);
 
-                cmd.Parameters.AddWithValue("@Id", id);
+                cmd.Parameters.AddWithValue("@id", id);
 
                 MySqlDataAdapter da = new MySqlDataAdapter(cmd);
 
@@ -117,7 +117,7 @@ namespace DragonFantasy.Repositorio
                     produto.Nome = ((string)dr["Nome"]);
                     produto.Descricao = ((string)dr["Descricao"]);
                     produto.Preco = ((decimal)dr["Preco"]);
-                    produto.Quantidade = ((int)dr["Preco"]);
+                    produto.Quantidade = (int)(dr["Quantidade"]);
                 }
                 return produto;
             }
@@ -128,7 +128,7 @@ namespace DragonFantasy.Repositorio
             {
                 conexao.Open();
 
-                MySqlCommand cmd = new MySqlCommand("DELETE FROM Produto Where Id=@Id", conexao);
+                MySqlCommand cmd = new MySqlCommand("DELETE FROM Produto Where Id=@id", conexao);
 
                 cmd.Parameters.AddWithValue("@id", id);
 
