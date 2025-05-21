@@ -20,7 +20,7 @@
 }
 
 body {
-    background-image: linear-gradient(to left, aqua,blue);
+    background-image: linear-gradient(to left, #00ffff,#0e22d8);
     color: black;
 }
 
@@ -42,10 +42,10 @@ body {
     transition: 0.3s color ease;
 }
 
-    .btn-primary:hover {
+ .btn-primary:hover {
         background-color: #23066b;
         border-color: #250085;
-    }
+ }
 
 .btn-warning {
     background-color: #23066b;

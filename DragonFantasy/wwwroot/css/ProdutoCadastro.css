@@ -1,0 +1,53 @@
+﻿body {
+    background-image: linear-gradient(to left, #00ffff,#0e22d8);
+    color: white;
+}
+
+
+
+.logo {
+    width: 7%;
+    align-content: center;
+    position: center;
+    margin-right: 45%;
+}
+
+.imagem-fundo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.btn {
+    margin-top: 10px;
+    display: inline-flex;
+    gap:20px;
+}
+
+
+.btn-primary {
+    background-color: #2c3999;
+    border-color: #2f049b;
+    border-radius: 10px;
+    transition: 0.3s color ease;
+}
+
+ .btn-primary:hover {
+        background-color: #23066b;
+        border-color: #250085;
+
+ }
+
+.btn-success {
+    background-color: #03bcff;
+    border-color: #2f049b;
+    border-radius: 10px;
+    transition: 0.3s color ease;
+}
+    .btn-success:hover {
+        background-color: #2268f5;
+        border-color: #250085;
+    }
